@@ -3,7 +3,7 @@ import 'package:namer_app/my_app_state.dart';
 import 'package:provider/provider.dart';
 
 class HistoryListWidget extends StatefulWidget {
-  const HistoryListWidget({Key? key}) : super(key: key);
+  const HistoryListWidget({super.key});
 
   @override
   State<HistoryListWidget> createState() => _HistoryListWidgetState();
