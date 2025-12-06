@@ -1,13 +1,10 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 
-class BigCardWidget extends StatelessWidget {
+class BigCard extends StatelessWidget {
   final WordPair pair;
 
-  const BigCardWidget({
-    super.key,
-    required this.pair,
-  });
+  const BigCard({super.key, required this.pair});
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +29,7 @@ class BigCardWidget extends StatelessWidget {
                 Text(
                   pair.second,
                   style: style.copyWith(fontWeight: FontWeight.bold),
-                )
+                ),
               ],
             ),
           ),
