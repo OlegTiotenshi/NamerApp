@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:namer_app/my_app_state.dart';
 import 'package:provider/provider.dart';
 
-class HistoryListWidget extends StatefulWidget {
-  const HistoryListWidget({super.key});
+class HistoryListView extends StatefulWidget {
+  const HistoryListView({super.key});
 
   @override
-  State<HistoryListWidget> createState() => _HistoryListWidgetState();
+  State<HistoryListView> createState() => _HistoryListViewState();
 }
 
-class _HistoryListWidgetState extends State<HistoryListWidget> {
+class _HistoryListViewState extends State<HistoryListView> {
   final _key = GlobalKey();
 
   static const Gradient _maskingGradient = LinearGradient(
